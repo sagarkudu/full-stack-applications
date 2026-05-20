@@ -1,0 +1,8 @@
+This Project helped us to learning:
+- Core HTML Tags
+- Nesting
+- Buttons
+- Input Fields
+- Anchor Tags
+- Document structure
+- lists

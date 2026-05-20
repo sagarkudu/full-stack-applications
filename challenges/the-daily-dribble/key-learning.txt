@@ -1,0 +1,16 @@
+This Project helped us to learning:
+
+- Basic HTML page structure
+- Using semantic HTML elements like <h1>, <p>, <img>, <input>, and <button>
+- Linking external CSS with <link>
+- Styling with CSS classes
+- Centering content using margin-left: auto and margin-right: auto
+- Working with the CSS box model (margin, padding, border)
+- Setting element widths and alignment
+- Styling images and buttons
+- Creating and styling an email input field
+- Using font-style, font-weight, and colors
+- Building a simple landing page / newsletter signup UI
+- Adding hyperlinks with <a>
+- Using placeholder text in form inputs
+- Basic responsive layout concepts with the viewport meta tag

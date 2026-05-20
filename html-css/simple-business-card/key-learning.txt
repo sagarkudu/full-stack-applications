@@ -1,0 +1,7 @@
+This Project helped us to learning:
+- Image alt text
+- Flex Child containers
+- Inheritance
+- Shorthands
+- Web-safe fonts
+- Color palettes
