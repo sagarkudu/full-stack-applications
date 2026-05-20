@@ -22,3 +22,8 @@ body {
 .avatar {
   width: 150px;
 }
+
+.link {
+  text-decoration: none;
+  color: #2b2839;
+}
