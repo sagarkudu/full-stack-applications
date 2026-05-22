@@ -1,0 +1,26 @@
+1. background images
+- learnt to set background images property using css and background size property 
+
+background-image: url("images/galaxy.webp");
+background-size: cover;
+
+2. Get compressed images
+- use of webp images instead of gif
+
+3. use of google fonts
+- we learnt how to add in head tag and use that font in font-family
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+font-family: 'Orbitron', sans-serif;
+
+4. span tag
+- learnt the importance of span tag and its use.
+
+5. Text shadow 
+- learnt how to improve readiblity when background color and font color is same.
