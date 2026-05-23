@@ -1,0 +1,23 @@
+
+1. align-items
+- learnt align-items in flexbox which aligns items in a flexbox container along the cross axis or vertical line (Top to bottom)
+
+2. justify-content
+- learnt justify-content in flexbox which aligns items in a flexbox container along the horizontal axis or horiozontal line (Left to right)
+
+3. flex-direction
+- The default alignment is row, so we learnt how to change it using flex-direction: column, so then flipping the direction from horizontal to vertical.
+
+4. :hover
+- learnt psuedo class hover for images
+
+5. gradient
+- learnt how to add gradient to site which helps to slowly fades sites from blue to pink
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+
+6. group selector
+- this allows css selector much more compact as we can target all of the html tags at once.
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
