@@ -11,6 +11,7 @@ Collection of frontend, backend, and AI projects.
 | Google Clone         | https://full-stack-applications.vercel.app/      |
 | Simple Business Card | https://full-stack-applications-1v3o.vercel.app/ |
 | Space Exploration    | https://html-css-space-exploration.vercel.app/   |
+| Birthday Site        | https://birthday-site-html-css.vercel.app/       |
 
 ---
 
