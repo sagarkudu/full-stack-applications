@@ -1,0 +1,41 @@
+1. Script tag
+
+- here I learned how we can embed JS using Internal JS and putting whole logic separate file say index.JS
+
+2. variables
+
+- learnt variables using let datatype.  e.g let count = 0
+
+3. numbers
+
+- learn the number datatype 
+- learn how to work with numbers, do mathematical operations
+
+4. strings
+
+- another datatype to store strings
+- ways to store strings
+- learnt escape string using '\' to remove string delimiter.
+
+5. console.log
+
+- used for printing values and debugging
+
+6. functions
+
+- most important part in developer part to create and use functions effectively
+
+7. DOM
+
+- learnt DOM manipulations, which is important part of the developer career.
+
+8. getElementById
+
+- learnt how to target element id using getElementById
+
+<h2 id="count-el">0</h2>
+let countEl = document.getElementById("count-el")
+
+9. innerText vs textContent
+
+- learnt when to use innerText and textContent, I came to know that innerText does not add spacing

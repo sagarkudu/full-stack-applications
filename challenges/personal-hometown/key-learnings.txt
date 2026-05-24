@@ -1,0 +1,8 @@
+- This project is combination of birthday card, business card, space exploration 
+
+- this projects help to revise different concept like:
+
+1. learn how to add google fonts
+2. learnt how to add hero image
+3. adding activities section by creating 3 columns which contain one image and text.
+4. learnt how to use flexbox effectively
