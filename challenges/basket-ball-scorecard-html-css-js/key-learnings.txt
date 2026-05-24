@@ -2,4 +2,6 @@
 
 - This project mainly help me learned DOM manipulation using getElementById and textContent.
 
+- Use of custom font.
+
 Note: This code is for begineers, this code is not scalable and not followed DRY principles. 
