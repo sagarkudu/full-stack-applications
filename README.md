@@ -18,9 +18,10 @@ Collection of frontend, backend, and AI projects.
 
 ## JavaScript Projects
 
-| Project           | Live Demo                                     |
-| ----------------- | --------------------------------------------- |
-| Passenger Counter | https://passenger-counter-js-puce.vercel.app/ |
+| Project              | Live Demo                                            |
+| -------------------- | ---------------------------------------------------- |
+| Passenger Counter    | https://passenger-counter-js-puce.vercel.app/        |
+| Basketball Scorecard | https://basketball-scorecard-html-css-js.vercel.app/ |
 
 ---
 
