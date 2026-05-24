@@ -5,6 +5,7 @@ Collection of frontend, backend, and AI projects.
 ---
 
 ## HTML/CSS Projects
+
 | Project              | Live Demo                                        |
 | -------------------- | ------------------------------------------------ |
 | Google Clone         | https://full-stack-applications.vercel.app/      |
@@ -17,7 +18,9 @@ Collection of frontend, backend, and AI projects.
 
 ## JavaScript Projects
 
-Coming Soon...
+| Project           | Live Demo                                     |
+| ----------------- | --------------------------------------------- |
+| Passenger Counter | https://passenger-counter-js-puce.vercel.app/ |
 
 ---
 
