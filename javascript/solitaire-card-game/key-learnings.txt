@@ -1,0 +1,41 @@
+1. arrays
+- learnt how to create arrays and push to arrays
+
+2. objects
+
+- learnt to create objects,it has key-value pairs.
+- it is also datatype.
+- everything in js is objects
+- it can called by dot(.) or square notation.
+
+3. booleans
+
+- it is another datatype in js, it is simply used to check true or false values
+
+4. if-else statements
+
+- learnt how to use if-else statements when you have multiple conditions.
+
+5. logical operators
+
+- OR - if any one value is true, then output is true
+- && - this means both the conditions must be true.
+
+6. for loops
+
+- it is used to loop the data and widely used in all programming languages.
+- e.g to traverse the array.
+
+7. Math objects
+
+- learn math objects that allow us to create random value using Math.random()
+- used Math.floor() which help to removes the decimal values.
+
+8. functions and return statements
+
+- learn how to use return keyword in functions
+
+9. comparison operators
+
+- '==' vs '===', so the double == just compares values and === compares both values and datatype and finally returns true or false.
+- also used <, >, <=, >= in the if-else statements.
