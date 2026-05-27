@@ -6,23 +6,23 @@ Collection of frontend, backend, and AI projects.
 
 ## HTML/CSS Projects
 
-| Project              | Live Demo                                      |
-| -------------------- | ---------------------------------------------- |
-| Google Clone         | https://googles-cloner-html-css.vercel.app/    |
-| Simple Business Card | https://simple-business-card.vercel.app/       |
-| Space Exploration    | https://html-css-space-exploration.vercel.app/ |
-| Birthday Site        | https://birthday-site-html-css.vercel.app/     |
-| Personal Hometown    | https://personal-hometown-html-css.vercel.app/ |
+| Project              | Live Demo                                      | Tech Stack |
+| -------------------- | ---------------------------------------------- | ---------- |
+| Google Clone         | https://googles-cloner-html-css.vercel.app/    | HTML, CSS  |
+| Simple Business Card | https://simple-business-card.vercel.app/       | HTML, CSS  |
+| Space Exploration    | https://html-css-space-exploration.vercel.app/ | HTML, CSS  |
+| Birthday Site        | https://birthday-site-html-css.vercel.app/     | HTML, CSS  |
+| Personal Hometown    | https://personal-hometown-html-css.vercel.app/ | HTML, CSS  |
 
 ---
 
 ## JavaScript Projects
 
-| Project              | Live Demo                                            |
-| -------------------- | ---------------------------------------------------- |
-| Passenger Counter    | https://passenger-counter-js-puce.vercel.app/        |
-| Basketball Scorecard | https://basketball-scorecard-html-css-js.vercel.app/ |
-| Solitaire Card Game  | https://solitaire-card-game-html-css-js.vercel.app/  |
+| Project              | Live Demo                                            | Tech Stack    |
+| -------------------- | ---------------------------------------------------- | ------------- |
+| Passenger Counter    | https://passenger-counter-js-puce.vercel.app/        | HTML, CSS, JS |
+| Basketball Scorecard | https://basketball-scorecard-html-css-js.vercel.app/ | HTML, CSS, JS |
+| Solitaire Card Game  | https://solitaire-card-game-html-css-js.vercel.app/  | HTML, CSS, JS |
 
 ---
 
