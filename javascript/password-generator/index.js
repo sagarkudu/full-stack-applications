@@ -92,3 +92,22 @@ const characters = [
   "/",
 ];
 
+let pwd1 = document.getElementById("pwd1");
+let pwd2 = document.getElementById("pwd2");
+let passwordLength = 15;
+
+function generatePassword() {
+  let password = "";
+
+  for (let i = 0; i < passwordLength; i++) {
+    let randomIndex = Math.floor(Math.random() * characters.length);
+    password += characters[randomIndex];
+  }
+
+  return password;
+}
+
+function changePassword() {
+  pwd1.textContent = generatePassword();
+  pwd2.textContent = generatePassword();
+}
