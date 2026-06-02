@@ -41,6 +41,15 @@ body {
   font-weight: 400;
 }
 
+#pwd-length {
+  display: inline;
+  background: none;
+  color: #ffffff;
+  width: 60px;
+  text-align: center;
+  border: none;
+}
+
 .btn {
   margin-top: 40px;
   color: #f4e6e6ea;
@@ -61,6 +70,17 @@ body {
 .pwd {
   display: flex;
   justify-content: space-between;
+}
+
+.pwd-text {
+  font-size: 12px;
+  font-style: italic;
+}
+
+#error-msg {
+  margin-top: 10px;
+  color: red;
+  font-size: 12px;
 }
 
 .pwd-btn {

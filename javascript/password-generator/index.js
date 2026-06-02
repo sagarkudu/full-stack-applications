@@ -94,12 +94,14 @@ const characters = [
 
 let pwd1 = document.getElementById("pwd1");
 let pwd2 = document.getElementById("pwd2");
-let passwordLength = 15;
 
-function generatePassword() {
+pwd1.style.display = "none";
+pwd2.style.display = "none";
+
+function generatePassword(length) {
   let password = "";
 
-  for (let i = 0; i < passwordLength; i++) {
+  for (let i = 0; i < length; i++) {
     let randomIndex = Math.floor(Math.random() * characters.length);
     password += characters[randomIndex];
   }
@@ -108,6 +110,23 @@ function generatePassword() {
 }
 
 function changePassword() {
-  pwd1.textContent = generatePassword();
-  pwd2.textContent = generatePassword();
+  let pwdLength = document.getElementById("pwd-length").valueAsNumber;
+  let displayError = document.getElementById("error-msg");
+
+  if (pwdLength <= 0 || isNaN(pwdLength)) {
+    displayError.textContent = "Password length should be greater than zero!";
+
+    pwd1.style.display = "none";
+    pwd2.style.display = "none";
+
+    return;
+  }
+
+  displayError.textContent = "";
+
+  pwd1.style.display = "inline-block";
+  pwd2.style.display = "inline-block";
+
+  pwd1.textContent = generatePassword(pwdLength);
+  pwd2.textContent = generatePassword(pwdLength);
 }
