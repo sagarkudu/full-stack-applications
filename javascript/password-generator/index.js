@@ -95,6 +95,7 @@ const characters = [
 let pwd1 = document.getElementById("pwd1");
 let pwd2 = document.getElementById("pwd2");
 
+//hide passwords initially at screen loading.
 pwd1.style.display = "none";
 pwd2.style.display = "none";
 
@@ -113,20 +114,45 @@ function changePassword() {
   let pwdLength = document.getElementById("pwd-length").valueAsNumber;
   let displayError = document.getElementById("error-msg");
 
-  if (pwdLength <= 0 || isNaN(pwdLength)) {
-    displayError.textContent = "Password length should be greater than zero!";
+  if (isNaN(pwdLength)) {
+    displayError.textContent = "Please enter a password length.";
 
     pwd1.style.display = "none";
     pwd2.style.display = "none";
-
     return;
   }
 
-  displayError.textContent = "";
+  if (pwdLength <= 0) {
+    displayError.textContent = "Password length should be greater than zero.";
 
+    pwd1.style.display = "none";
+    pwd2.style.display = "none";
+    return;
+  }
+
+  if (pwdLength < 5) {
+    displayError.textContent =
+      "Password length should be at least 5 characters.";
+
+    pwd1.style.display = "none";
+    pwd2.style.display = "none";
+    return;
+  }
+
+  if (pwdLength > 15) {
+    displayError.textContent = "Password cannot be greater than 15 characters.";
+
+    pwd1.style.display = "none";
+    pwd2.style.display = "none";
+    return;
+  }
+
+  displayError.value = "";
+
+  //show passwords when no error
   pwd1.style.display = "inline-block";
   pwd2.style.display = "inline-block";
 
-  pwd1.textContent = generatePassword(pwdLength);
-  pwd2.textContent = generatePassword(pwdLength);
+  pwd1.value = generatePassword(pwdLength);
+  pwd2.value = generatePassword(pwdLength);
 }
