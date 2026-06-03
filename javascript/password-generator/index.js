@@ -114,6 +114,7 @@ function changePassword() {
   let pwdLength = document.getElementById("pwd-length").valueAsNumber;
   let displayError = document.getElementById("error-msg");
 
+  //add checks
   if (isNaN(pwdLength)) {
     displayError.textContent = "Please enter a password length.";
 
@@ -147,7 +148,7 @@ function changePassword() {
     return;
   }
 
-  displayError.value = "";
+  displayError.textContent = "";
 
   //show passwords when no error
   pwd1.style.display = "inline-block";
@@ -155,4 +156,23 @@ function changePassword() {
 
   pwd1.value = generatePassword(pwdLength);
   pwd2.value = generatePassword(pwdLength);
+}
+
+function copyPassword(id) {
+  const input = document.getElementById(id);
+
+  //copy password to clipboard
+  const originalPassword = input.value;
+
+  //add mobile support
+  input.setSelectionRange(0, 99999);
+
+  navigator.clipboard.writeText(originalPassword);
+
+  input.value = "✓ Copied!";
+
+  //replace with original text
+  setTimeout(function () {
+    input.value = originalPassword;
+  }, 1000);
 }
