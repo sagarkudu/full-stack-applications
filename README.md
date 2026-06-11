@@ -46,6 +46,7 @@ Coming Soon...
 
 ## Solo Project
 
-| Challenge         | Live Demo                                         | Tech Stack |
-| ----------------- | ------------------------------------------------- | ---------- |
-| The Daily Dribble | https://the-daily-newsletter-html-css.vercel.app/ | HTML, CSS  |
+| Challenge                 | Live Demo                                               | Tech Stack    |
+| ------------------------- | ------------------------------------------------------- | ------------- |
+| The Daily Dribble         | https://the-daily-newsletter-html-css.vercel.app/       | HTML, CSS     |
+| Random Password Generator | https://random-password-generator-jet-alpha.vercel.app/ | HTML, CSS, JS |
