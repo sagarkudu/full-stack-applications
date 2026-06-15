@@ -18,11 +18,12 @@ Collection of frontend, backend, and AI projects.
 
 ## JavaScript Projects
 
-| Project              | Live Demo                                            | Tech Stack    |
-| -------------------- | ---------------------------------------------------- | ------------- |
-| Passenger Counter    | https://passenger-counter-js-puce.vercel.app/        | HTML, CSS, JS |
-| Basketball Scorecard | https://basketball-scorecard-html-css-js.vercel.app/ | HTML, CSS, JS |
-| Solitaire Card Game  | https://solitaire-card-game-html-css-js.vercel.app/  | HTML, CSS, JS |
+| Project                     | Live Demo                                            | Tech Stack    |
+| --------------------------- | ---------------------------------------------------- | ------------- |
+| Passenger Counter           | https://passenger-counter-js-puce.vercel.app/        | HTML, CSS, JS |
+| Basketball Scorecard        | https://basketball-scorecard-html-css-js.vercel.app/ | HTML, CSS, JS |
+| Solitaire Card Game         | https://solitaire-card-game-html-css-js.vercel.app/  | HTML, CSS, JS |
+| Leads URL Grabber Extension | https://leads-url-grabber-extension.netlify.app/     | HTML, CSS, JS |
 
 ---
 
