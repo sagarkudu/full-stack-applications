@@ -1,0 +1,58 @@
+
+1. const
+
+- if we are not reassigning values, then we should go with const
+
+2. addEventListener()
+
+- This help to write event directly in js without writing event listeners in html.
+
+3. innerHTML()
+
+- We have used innerHTML() because textContent we cannot render html 
+
+4. input.value
+
+- it helps to capture users input values from the form.
+
+5. function parameters and arguments
+
+- learnt how to write function parameters and pass arguments effectively.
+
+6. Template string (`)
+
+- it gives ability to write string in multiple lines and it more readable and easier to parse for the humans.
+- we can use ${} inside it, to include any variable.
+
+7. localStorage
+
+- A very simple local database located inside the browser.
+
+9. JSON Object
+
+- A very common way to store data in web development.
+- we need to learn this since we need to learn how to turn Array into JSON Array using JSON.stringify() and also convert to JS array using JSON.parse()
+
+Note: There is difference is object and json, they are not same, although they look same.
+
+e.g
+{
+  "name": "leads-url-grabber",
+  "description": "This project helps to generate leads by grabbing url",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
+
+10. Object in Arrays
+
+- 
+e.g tabs[0].url
+tabs array where first item was only an object. So you had to first fetch out zeroth index and then url e.g tabs[0].url
