@@ -7,7 +7,7 @@ const ulEl = document.getElementById("ul-el");
 
 let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
 
-const tabs = [{ url: "https://www.linkedin.com/in/sagarkudu/" }];
+// const tabs = [{ url: "https://www.linkedin.com/in/sagarkudu/" }];
 
 //checking localstorage before rendering
 if (leadsFromLocalStorage) {
