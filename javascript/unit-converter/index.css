@@ -6,13 +6,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: rgb(154, 164, 113);
+  background: rgb(178, 188, 138);
 
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
-  border: 5px solid #f6efef;
+  border: 5px solid #ffffff;
   border-radius: 20px;
   height: 530px;
   width: 400px;
