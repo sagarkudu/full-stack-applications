@@ -1,0 +1,31 @@
+Turn an Object into an Array
+
+- So far we haven't learn how to loop over the object, so we can convert into an Array.
+- To convert we need to separate out keys and value from the given object.
+
+const loginCredentials = {
+    "username": "sagar",
+    "password": "temp123",
+    "email": "sagar@gmail.com",
+}
+
+- To convert object into we can use Object.keys(), The keys() method will turn any object into an array that contains all the keys.
+Object.keys()
+
+e.g console.log(Object.keys(loginCredentials))
+
+o/p:  ['username', 'password', 'email']
+
+- To get values, we can simply use Object.values()
+
+e.g ['sagar', 'temp123', 'sagar@gmail.com']
+
+- If you want both Keys as well Values use Object.entries(), it gives array with smaller arrays inside of it that contain both the keys and values.
+
+e.g console.log(Object.entries(loginCredentials));
+
+o/p: 
+["username", "sagar"]
+["password", "temp123"]
+["email", "sagar@gmail.com"]
+
