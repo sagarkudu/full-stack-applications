@@ -1,3 +1,13 @@
+- learned how to save data in cloud db using firebase
+
+- push() method automatically generates unique ids, so we do need to create ids manually.
+
+- Retreive saved data from firebase db using onValue() without requiring page refreshes.
+
+- learned to remove from firebase using remove() method.
+
+- Understood the differences between localStorage and cloud-based persistence using Firebase Realtime Database.
+
 Turn an Object into an Array
 
 - So far we haven't learn how to loop over the object, so we can convert into an Array.
@@ -28,4 +38,6 @@ o/p:
 ["username", "sagar"]
 ["password", "temp123"]
 ["email", "sagar@gmail.com"]
+
+- Learnt how to convert web to mobile application.
 
