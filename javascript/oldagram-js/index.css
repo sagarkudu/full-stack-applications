@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  max-width: 90px;
+  max-height: 35px;
+}
+
+.profile-img {
+  max-width: 35px;
+  max-height: 30px;
+  border-radius: 50%;
+}
+
+.logo,
+.profile-img {
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+article {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 20px 0 10px 10px;
+}
+
+.profile-info {
+  margin-left: 10px;
+}
+
+.username {
+  display: block;
+  font-size: 12px;
+}
+
+.location {
+  display: block;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.post-img {
+  width: 100%;
+  display: block;
+  height: 60vh;
+  object-fit: cover;
+}
+
+/* icon */
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-heart,
+.icon-comment,
+.icon-dm {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-heart:hover,
+.icon-dm:hover,
+.icon-comment:hover {
+  transform: scale(1.1);
+}
+
+.post-likes {
+  font-size: 10px;
+  color: black;
+  margin: 10px 0 10px 10px;
+}
+
+.post-username {
+  margin-left: 11px;
+  font-size: 12px;
+}
+
+.post-comment-text {
+  font-size: 12px;
+  font-weight: lighter;
+}
