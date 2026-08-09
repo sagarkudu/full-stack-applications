@@ -25,6 +25,7 @@ Collection of frontend, backend, and AI projects.
 | Solitaire Card Game          | https://solitaire-card-game-html-css-js.vercel.app/    | HTML, CSS, JS           |
 | Leads URL Grabber Extension  | https://leads-url-grabber-extension.netlify.app/       | HTML, CSS, JS           |
 | Leads URL Grabber (Firebase) | https://leads-url-grabber-chrome-firebase.netlify.app/ | HTML, CSS, JS, firebase |
+| Oldagram                     | https://oldagram-delta.vercel.app                      | HTML, CSS, JS           |
 
 ---
 

@@ -31,33 +31,40 @@ const posts = [
 
 let postContainer = document.getElementById("post-container");
 
+function handleLikes(index) {
+  posts[index].likes++;
+
+  const likesElement = document.getElementById(`likes-${index}`);
+  likesElement.textContent = `${posts[index].likes} likes`;
+}
+
 for (let i = 0; i < posts.length; i++) {
   postContainer.innerHTML += `
-  <div>
-        <article>
-          <img class="profile-img" src=${posts[i].avatar} alt="" />
-          <div class="profile-info">
-            <strong class="username">${posts[i].name}</strong>
-            <span class="location">${posts[i].location}</span>
-          </div>
-        </article>
-      </div>
-      <div>
-        <img class="post-img" src=${posts[i].post} alt="" />
-      </div>
+    <div>
+         <article>
+            <img class="profile-img" src=${posts[i].avatar} alt="" />
+            <div class="profile-info">
+              <strong class="username">${posts[i].name}</strong>
+              <span class="location">${posts[i].location}</span>
+            </div>
+          </article>
+    </div>
+        <div>
+          <img class="post-img" src=${posts[i].post} alt="" />
+        </div>
 
-      <div class="icon">
-        <img class="icon-heart" src="images/icon-heart.png" alt="" />
-        <img class="icon-comment" src="images/icon-comment.png" alt="" />
-        <img class="icon-dm" src="images/icon-dm.png" alt="" />
-      </div>
-      <div class="post-likes">
-        <b>${posts[i].likes} likes</b>
-      </div>
-      <div class="post-comment">
-        <strong class="post-username">${posts[i].location}</strong>
-        <span class="post-comment-text">${posts[i].comment}</span>
-      </div>
-    
-  `;
+        <div class="icon">
+          <img id="likes" ondblclick="handleLikes(${i})" class="icon-heart" src="images/icon-heart.png" alt="" />
+          <img class="icon-comment" src="images/icon-comment.png" alt="" />
+          <img class="icon-dm" src="images/icon-dm.png" alt="" />
+        </div>
+        <div class="post-likes">
+          <b id="likes-${i}">${posts[i].likes} likes</b>
+        </div>
+        <div class="post-comment">
+          <strong class="post-username">${posts[i].location}</strong>
+          <span class="post-comment-text">${posts[i].comment}</span>
+        </div>
+      
+    `;
 }
