@@ -59,11 +59,23 @@ article {
 
 /* icon */
 .icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-heart,
+.icon-comment,
+.icon-dm {
   margin-top: 10px;
   margin-left: 10px;
   width: 20px;
   height: 20px;
-  padding: 0;
+}
+
+.icon-heart:hover,
+.icon-dm:hover,
+.icon-comment:hover {
+  transform: scale(1.1);
 }
 
 .post-likes {
